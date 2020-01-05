@@ -1,0 +1,19 @@
+
+CITS3402 Project 1 ReadMe
+
+For compiling:
+1) Ensure all you are working in the correct directory.
+2) To compile: gcc -fopenmp 21492318.c
+
+
+Operations:
+1) Scalar mutliplication: ./a.out --sm %d -f %s(filename) (threads optional)-t %d -l(logging optional)
+2) Trace: ./a.out --tr -f %s(filename) (threads optional)-t %d -l(logging optional)
+3) Transpose: ./a.out --ts -f %s(filename) (threads optional)-t %d -l(logging optional)
+4) Addition: ./a.out --mm %d -f %s(filename) %s(filename2) (threads optional)-t %d -l(logging optional)
+5) Multiplication: ./a.out --mm %d -f %s(filename) %s(filename2) (threads optional)-t %d -l(logging optional)
+
+
+
+
+
